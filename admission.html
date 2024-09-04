@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .links {
+        text-align: center;
+      }
+      a {
+        color: yellow;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        margin-left: 3%;
+        font-size: large;
+      }
+      p {
+        text-align: left;
+      }
+      h1,
+      .crousal,
+      section[name="main_text"],
+      section[name="iframe"] {
+        text-align: center;
+      }
+      #news {
+        text-align: left;
+      }
+      footer {
+        margin-top: 10px;
+        background-color: lightskyblue;
+        padding: 0.5%;
+        padding-left: 2%;
+      }
+    </style>
+    <title>FAST NUCES | Admission</title>
+  </head>
+  <body style="background-color: lightcyan;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding: 2%;">
+
+    <header>
+      <img src="NU-logo.jpg" alt="NU-logo" width="15%" />
+      <nav
+        style="
+          background-color: deepskyblue;
+          width: 93%;
+          margin-left: 2.5%;
+          padding: 1%;
+        "
+      >
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="Academics.html">Academics</a>
+          <a href="admission.html">Admission</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about_us.html">About us</a>
+          <a href="contact_us.html">Contact us</a><br />
+        </div>
+      </nav>
+      <div class="crousal">
+        <img src="adm-sp-2022-2.jpg" alt="index" width="95%" />
+      </div>
+    </header>
+    <main>
+      <h1>Admission Form Fall 2024</h1>
+      <form method="get">
+        <fieldset style="background-color: lightskyblue">
+          <legend style="background-color: yellow">Enter Data</legend>
+          <p>
+            <label for="name">Name: </label
+            ><input type="text" placeholder="Name" />
+          </p>
+          <p>
+            <label for="fname">Father Name: </label
+            ><input type="text" placeholder="Father Name" />
+          </p>
+          <p>
+            <label for="cnic">CNIC: </label
+            ><input type="text" placeholder="CNIC" />
+          </p>
+          <p><label for="gender">Gender</label></p>
+          <p>
+            <label for="gen">Male: </label><input type="radio" name="gen" />
+          </p>
+          <p>
+            <label for="gen">Female: </label><input type="radio" name="gen" />
+          </p>
+          <p><label for="dept">Select Department</label></p>
+          <p>
+            <select name="dept">
+              <option value="cs">CS</option>
+              <option value="ai">AI</option>
+              <option value="cys" selected>CYS</option>
+              <option value="ds">DS</option>
+              <option value="BBA">BBA</option>
+              <option value="fin">Fintech</option>
+              <option value="ee">EE</option>
+              <option value="robo">Robotics</option>
+            </select>
+          </p>
+          <p><label for="Mark Sheet">Upload Mark Sheet</label></p>
+          <p><input type="file" /></p>
+          <input type="submit" />
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <br />
+      <img src="Footer-Logo.png" alt="footer logo" width="15%" />
+      <p style="text-align: center">
+        Location: FAST-House Rohtas Road, G-9/4 Islamabad - 44000
+      </p>
+      <p style="text-align: center">Contact :111128128</p>
+    </footer>
+  </body>
+</html>
